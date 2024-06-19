@@ -1,0 +1,75 @@
+1. Operating System (Windows 11):
+
+Download: Visit the official Microsoft website (https://www.microsoft.com/software-download/windows11) and download the Windows 11 installation media (likely an ISO file).
+Create Bootable USB: Use a tool like Rufus to create a bootable USB drive with the Windows 11 ISO.
+Installation:
+Restart your computer and enter the BIOS/UEFI settings.
+Set your boot priority to boot from the USB drive.
+Follow the on-screen instructions to install Windows 11.
+2. Text Editor/IDE (Visual Studio Code):
+
+Download: Go to the Visual Studio Code website (https://code.visualstudio.com/Download) and choose the appropriate installer for your system (Windows).
+Installation:
+Run the installer.
+Follow the installation wizard's instructions.
+Choose the components you want to install (e.g., Python extension).
+3. Version Control System (Git & GitHub):
+
+Install Git: Download Git from the official website (https://git-scm.com/) and follow the installation instructions.
+GitHub Account: Create a free account on GitHub (https://github.com/).
+Repository Setup:
+Create a new repository on GitHub for your project.
+Open your project folder in Visual Studio Code.
+Open the integrated terminal (Ctrl+`).
+Run the following commands:
+Bash
+git init       # Initialize a Git repository in your project folder
+git add .      # Add all files to the staging area
+git commit -m "Initial commit"  # Commit the changes with a message
+git remote add origin <repository_url>  # Link your local repo to GitHub
+git push -u origin master   # Push your code to GitHub
+Use code with caution.
+content_copy
+Replace <repository_url> with your repository's address from GitHub.
+
+4. Programming Languages (Python):
+
+Download: Get the latest Python version from the official website (https://www.python.org/).
+Installation:
+Run the installer.
+Make sure to check the box to "Add Python to PATH" during installation.
+Follow the on-screen instructions.
+5. Package Manager (pip):
+
+Pip is usually included when you install Python.
+To verify, open your terminal and run pip --version.
+6. Database (MySQL):
+
+Download: Go to the MySQL Downloads page (https://dev.mysql.com/downloads/windows/installer/5.7.html) and choose the appropriate installer.
+Installation:
+Run the installer.
+Follow the setup wizard, choosing the "Developer Default" setup type.
+Set a root password and remember it.
+7. Development Environments (Optional):
+
+Docker (Recommended): If you're going to be working on projects that require specific environments or isolation, learn how to use Docker. It's a powerful tool.
+Virtual Machines: If Docker is too complex for your current needs, you can use virtual machines (e.g., VirtualBox, VMware) to create isolated environments.
+8. Extensions & Plugins:
+
+Visual Studio Code:
+Open the Extensions tab (Ctrl+Shift+X).
+Search for and install extensions like:
+Python
+MySQL
+GitLens
+Prettier (for code formatting)
+9. Documentation:
+
+Create a detailed document that includes:
+Each step you followed
+Screenshots for visual reference
+Any errors you encountered and how you resolved them
+Additional Tips:
+
+Customization: Customize Visual Studio Code's settings to your preferences (themes, fonts, etc.).
+Shell (Optional): Consider learning how to use a more powerful terminal like Git Bash or Windows Terminal.
